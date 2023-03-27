@@ -41,8 +41,7 @@ if (str == NULL)
 {
 str = "(null)";
 if (precision >= 6)
-str = "
-";
+str = "";
 }
 while (str[length] != '\0')
 length++;
